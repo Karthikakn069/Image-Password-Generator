@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Graphical Password Authentication</title>
+</head>
+<body>
+  <div class="container">
+     <div class="logo"></div>
+     <div class="main">
+      <h3>Graphical Password Generator</h3>
+      <div class="choose-topic">
+        <label for="topic-opt">Choose a topic:</label>
+        <select name="topic-opt" id="topic-opt">
+          <option value="---">---</option>
+          <option value="Choclates">Choclates</option>
+          <option value="Cars">Cars</option>
+        </select>
+      </div>
+      <div class="images">
+        <h4>Select your favourite : <span class="topic-name"></span></h4>
+        <div class="grid-container">
+          <!-- <div class="grid-item"><img src="./images/choc-1.jpg" alt=""></div> -->
+        </div>
+      </div>
+      <div class="add-input">
+        <h4>Enter additional details:</h4>
+        <input type="text" name="add=input" id="add-input" required>
+      </div>
+      <div class="gen-button"><button id="generate-button">Get Password</button></div>
+    </div>
+    <div class="final-sec">
+      <div class="generated-password">Generated Password :</div>
+      <div class="final-pass" id="to-copy"></div>
+    </div>
+  </div>
+</body>
+<script src="./app.js"></script>
+<!-- <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('topic-opt').addEventListener('change', topicChange);
+    document.getElementById('generate-password').addEventListener('click', passGenerate);
+  });
+</script> -->
+</html>

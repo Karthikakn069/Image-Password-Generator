@@ -1,0 +1,10 @@
+{
+  "name" : "Image Password Generator",
+  "version" : "0.0.1",
+  "manifest_version" : 3 ,
+  "description" : "Generate strong passwords by selecting the images",
+  "action" : {
+    "default_icon" : "./images/logo.png",
+    "default_popup" : "./popup.html"
+  }
+}

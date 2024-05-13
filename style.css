@@ -1,0 +1,61 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  justify-content: space-evenly;
+  row-gap: 10px;
+}
+.grid-item img{
+  height: 75px;
+  width: 75px;
+}
+.grid-item{
+  border: 2px solid black;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+.container{
+  font-family: "Noto Sans", sans-serif;
+  border: 2px solid gray;
+  box-shadow: 2px 2px 2px 3px rgb(126, 124, 124);
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  /*background-color: rgb(245, 174, 123);*/
+  width: 400px;
+  background-color: white;
+}
+.gen-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.gen-button button{
+  border: none;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  background-color: gray;
+  cursor: pointer;
+  font-weight: 500px;
+}
+.final-sec{
+  margin-top: 10px;
+}
+.topic-name{
+  margin-left: 5px;
+}
+.final-pass{
+  width : 350px;
+  overflow-x: scroll;
+  cursor: pointer;
+}
+.grid-selected{
+  cursor: auto;
+}
+.add-input{
+  display:flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}

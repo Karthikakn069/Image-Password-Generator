@@ -1,5 +1,5 @@
 var imagesArr = [];
-var passes = ['@rTSH4&','$poNT4','61YU*h','A_94re','iY%4D','lF3%m','Nc9$^j','gFU#k','aB9Lp']
+var passes = [/*Create your own 9 password set here*/]
 var shuffPasses = [];
 var shuffImages = [];
 var selectedNumber = 0;
